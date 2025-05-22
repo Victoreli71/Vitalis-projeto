@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=o, initial-scale=1.0">
+    <link rel="stylesheet" href="style-cadastro.css">
+     <!-- Link de icone -->
+    <link rel="icon" href="../../assets/img/icon.png" type="image/png">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="cadastro-container">
+        <div class="logo-vitalis"><img src="../../assets/img/logo.png" alt="logo Vitalis"></div>
+        
+        <form>
+            <div class="form-grupo" id="labelusuario">
+                <label for="username">Nome de usuario:</label>
+                <input type="text" id="username" value="" placeholder="@user_123">
+            </div>
+            
+            <div class="form-grupo" id="labelemail">
+                <label for="email">Email:</label>
+                <input type="email" id="email" value="" placeholder="example@gmail.com">
+            </div>
+            
+            <div class="form-grupo" id="labelpassword">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" value="" placeholder="*****">
+            </div>
+            
+            <div class="form-grupo" id="labeldatanasc">
+                <label for="birthdate">Data de nascimento:</label>
+                <input type="date" id="birthdate" value="" placeholder="2000/01/01">
+            </div>
+            
+            <div class="form-grupo" id="labelsexo">
+                <label for="gender">Sexo:</label>
+                <select id="gender">
+                    <option value="other">Outro</option>
+                    <option value="male">Masculino</option>
+                    <option value="female">Feminino</option>
+                </select>
+            </div>
+            
+            <div class="marca-footer">
+            <div class="marca-name">Vitalis</div>
+            <p class="slogan">Saúde feito sob medida para você.</p>
+        </div>
+            <button type="submit" class="cadastro-button"><a href="objetivos.html">CADASTRAR</a></button>
+        </form>
+        
+        <div class="marca-footer">
+            
+            <div class="voltar-button"><a href="index.html">Voltar</a></div>
+        </div>
+    </div>
+</body>
+</html>
