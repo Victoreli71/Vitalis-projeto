@@ -1,0 +1,160 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+/* Variaveis */
+:root {
+  --cor-primaria: #1A6A64;
+  --cor-secundaria: #6A9672;
+  --cor-terciaria: #5F9793;
+  --cor-lbl: white;
+  --cor-value: #737373;
+  --cor-bg-input: #D9D9D9;
+  /*Por padrão 1rem == 16px*/
+  --font-10: 0.625rem;
+  --font-18: 1.125rem;
+  --font-22: 1.375rem;
+  --font-38: 2.375rem;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-web {
+  background-image: url(../img/bg-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.home-web .back_button {
+  display: none;
+}
+
+.home-web .forgot_password {
+  display: none;
+}
+
+.div-1-web {
+  flex: 1;
+}
+
+.div-1-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.div-1-web .form-web {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.div-1-web .form-web h1,
+label,
+a,
+p {
+  letter-spacing: 0.25rem;
+  color: white;
+}
+
+.div-1-web .form-web h1,
+a,
+p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.div-1-web .form-web a,
+p {
+  font-size: 1rem;
+}
+
+.div-1-web .form-web h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.div-1-web .form-web label {
+  margin-left: var(--font-10);
+  margin-bottom: 0rem;
+  font-size: var(--font-18);
+}
+
+/* Estiliza todos os inputs, não mexer */
+
+input {
+  height: 3.75rem;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  padding-inline: var(--font-10);
+  background-color: var(--cor-bg-input);
+  font-size: var(--font-18);
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: var(--cor-value);
+
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.div-1-web .form-web label[for="Senha"] {
+  margin-top: var(--font-10);
+}
+
+.div-1-web .form-web #Senha {
+  margin-bottom: var(--font-38);
+}
+
+.div-1-web .form-web button {
+  height: 3.25rem;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: var(--font-18);
+  font-weight: bold;
+  color: white;
+  background-color: var(--cor-secundaria);
+  transition: 0.5s ease-in;
+}
+
+.div-1-web .form-web button:hover {
+  transition: 0.5s ease-out;
+  transform: scale(1.02);
+}
+
+.div-1-web .form-web p {
+  margin-top: var(--font-22);
+}
+
+
+.div-2-web {
+  flex: 1;
+}
+
+.div-2-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
