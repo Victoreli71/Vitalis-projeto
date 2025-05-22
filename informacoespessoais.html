@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informações Pessoais</title>
+  <link rel="stylesheet" href="informacoespessoais.css">
+</head>
+<body>
+  <div class="container">
+    <div class="back-arrow">&lt;</div>
+    <h1>Informações Pessoais</h1>
+    <div class="form-box">
+      <label>Nome de Usuário:
+        <input type="text" placeholder="@user_123" disabled>
+      </label>
+      <label>Email:
+        <input type="email" placeholder="exemplo@gmail.com" disabled>
+      </label>
+      <label>Senha:
+        <input type="password" placeholder="******" disabled>
+      </label>
+      <label>Data de nascimento:
+        <div class="date-wrapper">
+          <input type="text" placeholder="01/01/2000" disabled>
+          <span class="calendar-icon">📅</span>
+        </div>
+      </label>
+      <label>Sexo:
+        <div class="select-wrapper">
+          <select disabled>
+            <option>Selecionar</option>
+          </select>
+        </div>
+      </label>
+      <button class="edit-btn">EDITAR</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>

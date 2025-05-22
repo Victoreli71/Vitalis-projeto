@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 60px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px; 
+    text-align: center;
+  }
+  
+  .back-arrow {
+    text-align: left;
+    margin-left: 10px;
+    color: #3a8781;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-size: 26px;
+    color: #265d58;
+    margin: 30px 0 25px;
+  }
+  
+  .form-box {
+    background-color: #176861;
+    padding: 40px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  input,
+  select {
+    margin-top: 8px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #aac1be;
+    color: white;
+    font-size: 16px;
+  }
+  
+  input::placeholder {
+    color: white;
+    opacity: 0.85;
+  }
+  
+  input[disabled],
+  select[disabled] {
+    opacity: 0.85;
+    pointer-events: none;
+  }
+  
+  .date-wrapper {
+    position: relative;
+  }
+  
+  .calendar-icon {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: white;
+    pointer-events: none;
+  }
+  
+  .select-wrapper {
+    position: relative;
+  }
+  
+  .edit-btn {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #5e8b6d;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    input,
+    select,
+    .edit-btn {
+      font-size: 14px;
+    }
+  }
+  
