@@ -1,0 +1,50 @@
+@media (max-width: 1150px) {
+  .home-mobile {
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .home-mobile .back_button {
+    display: flex;
+    margin: 2rem 0 0 1rem;
+  }
+
+  .home-mobile .div-1-mobile .form-mobile {
+    width: 90vw;
+  }
+
+  .home-mobile .div-1-mobile .form-mobile h1 {
+    display: none !important;
+  }
+
+  .home-mobile .div-1-mobile .form-mobile label {
+    color: var(--cor-secundaria);
+  }
+
+  .home-mobile .div-1-web .form-web #Senha {
+    margin-bottom: 0;
+  }
+
+  .home-mobile .div-1-mobile .form-mobile p,
+  a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+  }
+
+  .home-mobile .div-1-mobile .form-mobile .forgot_password {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+  }
+
+
+
+  .home-mobile .div-1-mobile {
+    order: 2;
+  }
+
+  .home-mobile .div-2-mobile {
+    order: 1;
+  }
+
+}
