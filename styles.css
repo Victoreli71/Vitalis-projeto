@@ -1,0 +1,6 @@
+.nivel_atividade-web {
+  background-image: url(../../assets/img/bg-nivelatividade.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  display: flex;
+}
