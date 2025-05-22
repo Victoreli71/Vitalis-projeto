@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    padding: 130px 60px 40px;
+    color: #1c1c1c;
+    font-size: 18px; /* Aumentado */
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: auto;
+  }
+  
+  .header {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; /* Maior espaçamento */
+    margin-bottom: 40px;
+  }
+  
+  .back-btn {
+    background: none;
+    border: none;
+    font-size: 36px;
+    color: #3a8781;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+
+  .back-btn:hover {
+    color: #14504c; 
+    text-decoration: underline;
+  }
+  
+  .title-group h1 {
+    color: #1a6a64;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .title-group p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #6a9672;
+    max-width: 800px;
+    font-weight: 600;
+  }
+  
+  .title-group a {
+    color: #1a6a64;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .title-group a:hover {
+    color: #14504c; 
+    text-decoration: underline;
+  }
+  
+  
+  .meals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .meal-box {
+    flex: 1 1 260px;
+    padding: 30px;
+    border-radius: 20px;
+    min-width: 260px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .meal-box h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  
+  .meal-box .icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  
+  .meal-box p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Cores específicas */
+  .cafe {
+    background-color: #176861;
+  }
+  
+  .almoco {
+    background-color: #5f8d6d;
+  }
+  
+  .lanche {
+    background-color: #d3d3d3;
+    color: #317051;
+  }
+  
+  .jantar {
+    background-color: #3a8781;
+  }
+  
+  .info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .dicas, .regra {
+    flex: 1 1 400px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #5f8d8d;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .dicas h4, .regra h4 {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .dicas ul, .regra ul {
+    list-style: disc inside;
+    line-height: 1.8;
+  }
+  
+  .regra {
+    background-color: #176861;
+  }
+  
